@@ -51,10 +51,10 @@ for entry in split_list:
                     txt_fill = "," + entry_panel + " is included in relevant disorders for panel " + panel["name"] + " and gene is Green for this panel"
 
                 elif "Expert Review Amber" in results_dict["evidence"]:
-                    txt_fill = "," + entry_panel + " is included in relevant disorders for panel " + panel["name"] + " and gene is Green for this panel"
+                    txt_fill = "," + entry_panel + " is included in relevant disorders for panel " + panel["name"] + " and gene is Amber for this panel"
 
                 elif "Expert Review Red" in results_dict["evidence"]:
-                    txt_fill = "," + entry_panel + " is included in relevant disorders for panel " + panel["name"] + " and gene is Green for this panel"
+                    txt_fill = "," + entry_panel + " is included in relevant disorders for panel " + panel["name"] + " and gene is Red for this panel"
         print(entry, txt_fill)
 
     else:
