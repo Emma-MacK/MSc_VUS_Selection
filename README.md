@@ -58,6 +58,11 @@ Outputs:
 * all_variant_consequence_dev_3.png
 * all_clinvar_annot_dev_3.png
 
+### panel_app_variants_of_interest.py ###
+
+This script takes the gene and the top_exomiser_scoring_panel for each variant, and checks panelapp to see if the gene is listed on that panel and the evidence status of that gene (green, amber or red) this is added as a column to the cvs.
+This is currently a highly inefficient script that relies on print statements but it does the job for now 
+
 ## Set up the GEL research environment ##
 
 
